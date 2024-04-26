@@ -1,10 +1,7 @@
-use crate::detector::{scan, ScanInfo};
+use crate::detector::{ScanInfo};
 use crate::{detector, paths};
-use iced::advanced::graphics::image::image_rs::error;
-use iced::alignment::{Horizontal, Vertical};
 use iced::font::Style;
-use iced::font::Weight::{self, Bold};
-use iced::futures::SinkExt;
+use iced::font::Weight::{Bold};
 use iced::widget::image::Handle;
 use iced::widget::{
     self, container, text, Column, Row
